@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rock Salt', cursive;
+
+}
+
+@font-face {
+    font-family: Aloja;
+    src: url(../assets/Aloja_Font/AlojaLigh400.otf) format('otf');
+    font-weight: 400;
+}
+
+.header {
+    width: 100%;
+    height: 20vw;
+    background-image: url(../assets/img/araBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+
+
+   @media (min-width: 768px){
+   height: 10vh;
+   margin-bottom: 0;
+   }
+
+}

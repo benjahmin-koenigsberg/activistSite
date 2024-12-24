@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rock Salt", cursive;
+}
+
+@font-face {
+  font-family: Aloja;
+  src: url(../assets/Aloja_Font/AlojaLigh400.otf) format("otf");
+  font-weight: 400;
+}
+.header {
+  width: 100%;
+  height: 20vw;
+  background-image: url(../assets/img/araBanner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+}
+@media (min-width: 768px) {
+  .header {
+    height: 10vh;
+    margin-bottom: 0;
+  }
+}
+
+.header {
+  background-image: url(../assets/img/araBanner.png);
+  width: 100%;
+  height: 20vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.main__button {
+  font-family: Aloja;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 0.3rem solid;
+  height: 4.5rem;
+  width: 12rem;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0.5rem;
+}
+
+.main__buttons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .main__buttons {
+    width: 55%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+}
+
+.main__button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .main__button {
+    padding: 0.25em 0.75em;
+  }
+}/*# sourceMappingURL=main.css.map */

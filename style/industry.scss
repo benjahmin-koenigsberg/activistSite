@@ -1,0 +1,162 @@
+/** @format */
+@import './global.scss';
+
+
+
+.header {
+  background-image: url(../assets/img/industryFootage.png);
+  width: 100%;
+  height: 20vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 1rem;
+}
+
+
+.dominion {
+  background-image: url(../assets/img/dominion_header.png);
+}
+
+.beef {
+  background-image: url(../assets/img/beef_header.png);
+}
+.chicken {
+  background-image: url(../assets/img/chicken__header.png);
+}
+
+.dairy {
+  background-image: url(../assets/img/dairy_header.png);
+}
+
+.eggs {
+  background-image: url(../assets/img/eggs_header.png);
+}
+
+.fish {
+  background-image: url(../assets/img/fish_header.png);
+}
+
+.testing {
+  background-image: url(../assets/img/testing_header.png);
+}
+
+.pigs {
+  background-image: url(../assets/img/pig__header.png);
+}
+
+.sheep {
+  background-image: url(../assets/img/sheep_header.png);
+}
+
+.fur{
+  background-image: url(../assets/img/fur_header.png);
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__button {
+  font-family: Aloja;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 0.3rem solid;
+  height: 2.5rem;
+  width: 7rem;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0.5rem;
+}
+
+.main__buttons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: auto;
+
+  }
+}
+
+
+.back-button {
+  margin-top: 4rem;
+}
+
+.main__button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .main__button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.video__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+
+  @media (min-width: 768px) {
+    margin-top: 0%;
+  }
+}
+
+.video {
+  width: 90vw;
+}
+
+.image {
+  width: 100vw;
+}
+
+.back-button {
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #5b5a5a;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.back-button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .back-button {
+    padding: 0.25em 0.75em;
+  }
+}
